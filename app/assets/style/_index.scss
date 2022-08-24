@@ -1,0 +1,164 @@
+.banner {
+  padding: 308px;
+  background: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.name {
+  margin-bottom: 32px;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  margin-top: 56px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.about {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.border {
+  border: 1px solid #000;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  width: 384px;
+  margin: 0 auto;
+}
+
+.intro li {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.experience li {
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 28px;
+}
+
+.about .border {
+  margin-top: 24px;
+  margin-bottom: 28px;
+}
+
+.intro-month {
+  margin-bottom: 8px;
+}
+
+.about img {
+  margin-bottom: 20px;
+}
+
+
+.brand {
+  background-color: #000;
+  margin-top: 56px;
+  text-align: center;
+}
+
+.brand h2 {
+  color: #fff;
+  padding-top: 56px;
+  margin-bottom: 12px;
+}
+
+.brand span {
+
+  color: #fff;
+}
+
+.brand-content p {
+  color: #fff;
+}
+
+.brand-content {
+  margin-top: 32px;
+  margin-bottom: 68px;
+}
+
+.brand-image {
+  margin-top: 40px;
+  padding-bottom: 160px;
+}
+
+.brand-image img {
+  margin-top: 40px;
+  margin: 0 24px;
+}
+
+.work {
+  text-align: center;
+  margin-top: 56px;
+}
+
+.work-content {
+  margin-top: 16px;
+  margin-bottom: 56px;
+}
+
+.work-item {
+  float: left;
+}
+
+.work-item p {
+  line-height: 42px;
+}
+
+.work-item:nth-child(2) {
+  margin-left: 24px;
+}
+
+.work-item:nth-child(3) {
+  margin-left: 24px;
+}
+
+.row .work-item {
+  margin-bottom: 48px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding-top: 144px;
+  clear: both;
+  padding-bottom: 64px;
+}
+
+.footer h2,
+.footer span {
+  margin-bottom: 16px;
+}
+
+
+.experience li::before {
+  content: "\2022";
+  color: #891818;
+  display: inline-block;
+  width: 2rem;
+  font-size: 40px;
+  margin-left: -2rem;
+}
