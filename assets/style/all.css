@@ -1,0 +1,302 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+h1 {
+  font-size: 80px;
+  line-height: 106px; }
+
+h2 {
+  font-size: 64px;
+  line-height: 84px; }
+
+p {
+  font-size: 20px;
+  line-height: 30px; }
+
+span {
+  font-size: 24px;
+  line-height: 42px; }
+
+.banner {
+  padding: 308px;
+  background: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png);
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff; }
+
+.name {
+  margin-bottom: 32px; }
+
+.italic {
+  font-style: italic;
+  font-weight: 600; }
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.about h2 {
+  margin-top: 56px;
+  margin-bottom: 40px;
+  font-weight: 600; }
+
+.about {
+  margin: 0 auto;
+  text-align: center; }
+
+.border {
+  border: 1px solid #000;
+  margin-top: 24px;
+  margin-bottom: 28px;
+  width: 384px;
+  margin: 0 auto; }
+
+.intro li {
+  font-size: 24px;
+  line-height: 42px; }
+
+.experience li {
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 28px; }
+
+.about .border {
+  margin-top: 24px;
+  margin-bottom: 28px; }
+
+.intro-month {
+  margin-bottom: 8px; }
+
+.about img {
+  margin-bottom: 20px; }
+
+.brand {
+  background-color: #000;
+  margin-top: 56px;
+  text-align: center; }
+
+.brand h2 {
+  color: #fff;
+  padding-top: 56px;
+  margin-bottom: 12px; }
+
+.brand span {
+  color: #fff; }
+
+.brand-content p {
+  color: #fff; }
+
+.brand-content {
+  margin-top: 32px;
+  margin-bottom: 68px; }
+
+.brand-image {
+  margin-top: 40px;
+  padding-bottom: 160px; }
+
+.brand-image img {
+  margin-top: 40px;
+  margin: 0 24px; }
+
+.work {
+  text-align: center;
+  margin-top: 56px; }
+
+.work-content {
+  margin-top: 16px;
+  margin-bottom: 56px; }
+
+.work-item {
+  float: left; }
+
+.work-item p {
+  line-height: 42px; }
+
+.work-item:nth-child(2) {
+  margin-left: 24px; }
+
+.work-item:nth-child(3) {
+  margin-left: 24px; }
+
+.row .work-item {
+  margin-bottom: 48px; }
+
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding-top: 144px;
+  clear: both;
+  padding-bottom: 64px; }
+
+.footer h2,
+.footer span {
+  margin-bottom: 16px; }
+
+.experience li::before {
+  content: "\2022";
+  color: #891818;
+  display: inline-block;
+  width: 2rem;
+  font-size: 40px;
+  margin-left: -2rem; }
+
+/*# sourceMappingURL=all.css.map */
